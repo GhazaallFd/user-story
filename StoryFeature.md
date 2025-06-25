@@ -6,18 +6,18 @@ Property extraction:
 
 |          Field           | Required |                                Description                                |
 | :----------------------: | :------: | :-----------------------------------------------------------------------: |
-|     News Title     |    ✅    |                          The number of pollution                          |
-|      Topic Tags      |    ✅    |                         The type of the pollution                         |
-|    Publish Date      |    ✅    | visual representation of a chart, illustrating pollution levels or trends |
-| Visit Count |    ✅    |             ranking of cities based on their pollution levels             |
-| Thumbnail Image |    ✅    |             ranking of cities based on their pollution levels             |
-| Source Name |    ✅    |             ranking of cities based on their pollution levels             |
-| Source Logo |    ❌ (optional)    |             ranking of cities based on their pollution levels             |
-| Display Duration |    ✅    |             ranking of cities based on their pollution levels             |
-| Viewer Status |    ✅    |             ranking of cities based on their pollution levels             |
-| Max View Limit |    ✅    |             ranking of cities based on their pollution levels             |
-| Expiration Time |    ✅    |             ranking of cities based on their pollution levels             |
-| User Reaction |    ❌ (optional)   |             ranking of cities based on their pollution levels             |
+|     News Title     |    ✅    |                    The headline of the news article.                         |
+|      Topic Tags      |    ✅    |                      Keywords or tags linked to trending topics (e.g. "قیمت طلا", "ایران‌خودرو").                        |
+|    Publish Date      |    ✅    | The date and time the news article was originally published. |
+| Visit Count |    ✅    |             The number of total views the article has received.            |
+| Thumbnail Image |    ✅    |            A visual preview image for use in story format.             |
+| Source Name |    ✅    |            The name of the media outlet that published the article (e.g. خبرفوری, ایلنا).           |
+| Source Logo |    ❌ (optional)    |             The logo or icon of the source, used for branding within the story.           |
+| Display Duration |    ✅    |             The number of seconds the story stays visible before switching (e.g. 7s).           |
+| Viewer Status |    ✅    |             Indicates if the current user has seen the story (seen / unseen).            |
+| Max View Limit |    ✅    |            The maximum number of views allowed via the story (e.g. 200 views).             |
+| Expiration Time |    ✅    |            The time at which the story should stop being shown (e.g. 24 hours after start).            |
+| User Reaction |    ❌ (optional)   |             The reaction given by the user to the story (e.g. ❤️, 👎, 😐) – optional.             |
 
 ## 📝 STEP 2
 

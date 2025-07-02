@@ -9,7 +9,6 @@ Property extraction:
 |     App Name     |    ✅    |                    The name of the application to display in the popup.                         |
 |      App Icon      |    ✅    |                  Visual icon representing the app.                     |
 |    CTA – Open in App      |    ✅    | Button that opens the app (or redirects to store if not installed).
- |
 | CTA – Continue in Browser |    ✅    |             Button that lets the user stay in the browser with no page reload.            |
 | Close Button (✕) |    ✅    |            Allows user to dismiss the popup without action.             |
 | Display Logic |    ✅    |            Show only once per session or based on localStorage/sessionStorage.           |

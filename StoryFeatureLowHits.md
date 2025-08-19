@@ -21,12 +21,31 @@ Property extraction:
 
 ## 📝 STEP 2
 
+Behavioral Acceptance Criteria:
+
+|          Feature           | Priority |                                Acceptance Criteria (AC)                                |
+| :----------------------: | :------: | :-----------------------------------------------------------------------: |
+|     Auto-play stories     |    High    |                 Each story should automatically move to the next one after a defined duration (e.g., 7 seconds).                        |
+|      Manual navigation     |    High    |                      The user should be able to navigate back or forward by tapping/clicking left or right.                       |
+|    Seen/Unseen indicator      |    High    | Stories the user has already viewed must be visually distinguished (e.g., dimmed, full progress bar). |
+| Resume position |    Medium    |             If the user exits mid-story, they should resume from the same point when returning, not from the beginning.           |
+| Expiration handling |    High    |            Story loading time should be under 2 seconds for a seamless user experience.             |
+| Pause/Resume |    Medium    |            The user should be able to pause a story by holding (tap & hold) and resume by releasing.           |
+| Story prioritization |   High    |             Stories must be prioritized and displayed according to defined rules (e.g., low-visibility or trending-tag news).           |
+| User reactions |    Medium    |             Users should be able to react to stories with quick emoji responses; reactions must be saved instantly.          |
+| Source navigation |    High    |            The user must be able to click on the source name/logo and be redirected to the news source’s main page.           |
+| Cross-source continuity |    Medium    |           After finishing all stories from one source, the next source’s stories should play seamlessly           |
+| Progress indicator |    High    |            Each story must have a progress bar showing remaining time and total number of stories.            |
+| Passive consumption |High   |        Without any interaction, the system must auto-play all available stories in sequence.         |
+| Mobile/Desktop support |High   |        Stories must be fully functional on both mobile (gesture-based) and desktop (click/keyboard) environments.         |
+## 📝 STEP 3
+
 **Description**
 
 The goal of the Story feature is to increase the visibility of fresh, low-view news articles.
 Instead of focusing only on the most-viewed content, we’re introducing a Story section that highlights lesser-seen news related to trending topics, presented in  engaging format.
 
-## 📝 STEP 3
+## 📝 STEP 4
 
 1. As a user,
 I want to see the title of each news article in the story,
